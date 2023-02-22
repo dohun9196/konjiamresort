@@ -5,6 +5,7 @@
     font-weight: inherit;
     color: inherit;
     box-sizing: border-box;
+    word-break: keep-all;
 }
 
 *::before,

@@ -1,0 +1,445 @@
+.mainSection01 .mainslide figure {
+  position: relative;
+  height: calc(100vh - 90px);
+
+}
+
+.mainSection01 .mainslide figure.itm01 {
+  background: url(../public/img/visual_main02.jpg) no-repeat center center /cover;
+}
+
+.mainSection01 .mainslide figure.itm02 {
+
+  background: url(../public/img/visual_main01.jpg) no-repeat bottom center /cover;
+
+}
+
+
+.mainSection01 .mainslide figure::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent 10%, rgba(0, 0, 0, 0.4) 80%);
+}
+
+.mainSection01 .mainslide figure.itm03 {
+  background: url(../public/img/visual_main03.jpg) no-repeat center center /cover;
+}
+
+.mainSection01 .mainslide figure .inner {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 999;
+}
+
+.mainSection01 .mainslide figure .inner::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -20%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  width: 182px;
+  height: 90px;
+  background: url(../public/img/visual_main_bg.png) no-repeat center center/cover;
+}
+
+.mainSection01 .mainslide figure .inner .slide_text {
+  position: relative;
+  text-align: right;
+  color: #fff;
+
+}
+
+
+.mainSection01 .mainslide figure .inner .slide_text strong {
+  display: block;
+  font-size: 60px;
+  margin: 0 0 30px 0;
+  font-weight: 700;
+}
+
+.mainSection01 .mainslide figure .inner .slide_text p {
+  display: block;
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  font-weight: 500;
+}
+
+.mainSection01 .mainslide figure .inner .slide_text a {
+  display: block;
+
+}
+
+.mainSection01 .mainslide figure .inner .slide_text a span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+.mainSection01 .mainslide .slick-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mainSection01 .mainslide .slick-slider .slick-prev {
+  width: 40px;
+  height: 40px;
+  margin-left: 420px;
+
+  color: #00aeef;
+
+}
+
+.mainSection01 .mainslide .slick-slider .slick-next {
+  width: 40px;
+  height: 40px;
+  margin-left: 585px;
+
+  color: #00aeef;
+}
+
+.mainSection01 .mainslide .slick-slider .slick-dots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 505px;
+  width: 100px;
+  transform: translate(-50%, -50%);
+
+}
+
+.mainSection01 .mainslide .slick-slider .slick-dots>li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+
+}
+
+.mainSection01 .mainslide .slick-slider .slick-dots>li:last-child {
+  margin: 0;
+}
+
+.mainSection01 .mainslide .slick-slider .slick-dots>li>button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 0;
+  background: #fff;
+  border: 0px;
+  transition: 0.3s;
+}
+
+.mainSection01 .mainslide .slick-slider .slick-dots>li.slick-active>button {
+  width: 50px;
+  height: 15px;
+  border-radius: 10px;
+  background: rgba(0, 174, 239, 0.8);
+  border: 0px;
+}
+
+.mainSection02 {
+  position: relative;
+  padding: 50px 0 100px 0;
+}
+
+.mainSection02::before {
+  content: "";
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 700px;
+  height: 110px;
+
+  border-bottom: 90px solid #fff;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  z-index: 0;
+}
+
+.mainSection02 .main_qick_menu .qick_tit {
+  position: relative;
+}
+
+.mainSection02 .main_qick_menu .qick_tit::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.mainSection02 .main_qick_menu .qick_tit strong {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin: -110px 0 30px 0;
+  z-index: 110;
+}
+
+.mainSection02 .main_qick_menu .q_menu_wrap {
+  display: flex;
+  gap: 30px;
+
+  height: 90px;
+  background: url(../public/img/ico-quick-menu.png) no-repeat center center/cover;
+}
+
+.mainSection02 .main_qick_menu .q_menu_wrap>li {
+  position: relative;
+  width: 10%;
+
+}
+
+.mainSection02 .main_qick_menu .q_menu_wrap>li>a {
+  position: absolute;
+  bottom: -40px;
+  left: 0%;
+  transform: translate(0%, 0);
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+
+.mainSection03 .main_story_wrap .top {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin: 0 0 100px 0;
+}
+
+.mainSection03 .main_story_wrap .top::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: 100px solid rgba(0, 174, 239, 0.1);
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+}
+
+.mainSection03 .main_story_wrap .top .main_story_desc {
+  position: relative;
+  text-align: right;
+}
+
+.mainSection03 .main_story_wrap .top .main_story_desc::before {
+  content: "";
+  position: absolute;
+  top: 131.5px;
+  left: -110px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00aeef;
+}
+
+.mainSection03 .main_story_wrap .top .main_story_desc::after {
+  content: "";
+  position: absolute;
+  top: 135px;
+  left: -100px;
+  width: 500px;
+  height: 2px;
+  background: #00aeef;
+}
+
+.mainSection03 .main_story_wrap figure {
+  width: 750px;
+  height: 400px;
+}
+
+.mainSection03 .main_story_wrap figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainSection03 .main_story_wrap .bottom {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.mainSection03 .main_story_wrap .bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid rgba(0, 174, 239, 0.1);
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+}
+
+.mainSection03 .main_story_wrap .bottom .main_story_desc {
+  position: relative;
+  text-align: left;
+}
+
+.mainSection03 .main_story_wrap .bottom .main_story_desc::before {
+  content: "";
+  position: absolute;
+  top: 131.5px;
+  right: -110px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00aeef;
+}
+
+.mainSection03 .main_story_wrap .bottom .main_story_desc::after {
+  content: "";
+  position: absolute;
+  top: 135px;
+  right: -100px;
+  width: 500px;
+  height: 2px;
+  background: #00aeef;
+}
+
+.mainSection04 {
+  background: #f9f9f9;
+}
+
+.mainSection04 .main_slope {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainSection04 .main_slope li {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  transition: 0.5s;
+  padding: 30px;
+}
+
+.mainSection04 .main_slope li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  background: transparent;
+}
+
+.mainSection04 .main_slope li:hover {
+  width: 200%;
+}
+
+.mainSection04 .main_slope li:hover::after {
+
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.mainSection04 .main_slope li.slope_list01 {
+  background: url(../public/img/main_sec04_01.jpg) no-repeat center center/cover;
+}
+
+.mainSection04 .main_slope li.slope_list02 {
+  background: url(../public/img/main_sec04_02.jpg) no-repeat center center/cover;
+}
+
+.mainSection04 .main_slope li.slope_list03 {
+  background: url(../public/img/main_sec04_03.jpg) no-repeat center center/cover;
+}
+
+.mainSection04 .main_slope li .slope_desc {
+  position: absolute;
+  z-index: 99;
+}
+
+.mainSection04 .main_slope li .slope_desc strong {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  margin: 0 0 20px 0;
+
+}
+
+.mainSection04 .main_slope li .slope_desc span {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 300px 0;
+}
+
+.mainSection04 .main_slope li .slope_desc a {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.mainSection04 .main_slope li:hover .slope_desc a {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mainSection04 .main_slope li .slope_desc a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.mainSection05 {
+  position: relative;
+  background: url(../public/img/main_sec05_01.jpg) no-repeat center center;
+  width: 100%;
+  height: 300px;
+}
+
+.mainSection05::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.mainSection05 .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mainSection05 .inner span {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #fff;
+
+}
